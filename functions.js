@@ -36,3 +36,13 @@ let sum = function(a, b) {
 
 let res = sum(30, 40)
 console.log(res)
+
+// 3. Arrow function:
+let product = (x, y) => console.log("Product is" ,x * y)
+product(40, 70)
+
+// WAP to add two numbers using arrow function
+let addition = (x, y) => {
+    return x + y
+}
+console.log(addition(2, 3))
