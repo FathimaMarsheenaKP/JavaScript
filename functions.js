@@ -7,7 +7,7 @@ function add() {
 add(); // calling the function
 
 // with input and without return:
-sub(10, 5) // can call before method declaration
+sub(10, 5) // can call before method declaration - hoisting
 function sub(a, b) {
     console.log("Subtraction is", a - b);
 }
