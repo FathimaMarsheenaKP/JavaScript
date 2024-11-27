@@ -1,0 +1,56 @@
+<script>
+    /*
+    age = 25;
+    console.log("Value of age: ",age)
+    console.log(typeof age);
+    age = 'Kodnest'
+    console.log("Value of age after reassignment: ",age)
+    console.log(typeof age);
+    age = true;
+    console.log("Reassigned age with boolean value: ",age)
+    console.log(typeof age);
+    age = 562348795.562348795
+    console.log("value with float number: ",age)
+    console.log(typeof age);
+    */
+
+//    var keyword: It has gloabl scope
+// The variables which are declared using var doesn't have
+// block scope 
+
+    {
+        var a = 100
+        console.log(a) // allowed
+
+        a = 500
+        console.log(a) 
+    }
+    console.log(a) //allowed
+
+    // let keyword: It has block scope
+    // Variables which are decalred using let can be accessed
+    // only inside same block.
+    {
+        let b = 700
+        console.log(b) // allowed
+        b = 310;
+        console.log(b) // allowed
+    }
+    
+    // console.log(b) // not allowed
+
+    // const keyword: Has block scope and cannot be reassingned
+    const c = 360;
+    {
+        // console.log(c) // allowed
+        const c = 250;
+        console.log(c)
+
+        // c = 260; not allowed
+        // console.log(c)
+    }
+    // console.log(c) //not allowed
+    // c = 560; // not allowed
+    console.log(c)
+
+</script>
