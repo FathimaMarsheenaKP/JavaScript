@@ -23,13 +23,13 @@ console.log("Multiplication is", result)
 
 // Difference ways of Declaring Functions:
 
-// 1. Function Declaration:
+// 1. Function Declaration: hoisted
 function greet(name) {
     return "Hello", name;
 }
 console.log(greet("Akash"))
 
-// 2. Function Expression:
+// 2. Function Expression: not hoisted
 let sum = function(a, b) {
     return a + b;
 }
