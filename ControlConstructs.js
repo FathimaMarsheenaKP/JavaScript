@@ -72,7 +72,7 @@ if (input === 1) {
     console.log("Invalid input");
 }
 
-// same using switch
+// same using switch case
 day = 10
 switch (day) {
     case 1:
