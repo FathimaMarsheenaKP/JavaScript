@@ -73,7 +73,6 @@ console.log(arr.sort());
 spArray = ['red', 151, true, 5.13, 'aa', 'ab', 19]
 console.log("Before sorting: ");
 console.log(spArray);
-
 console.log("After sorting: ");
 console.log(spArray.sort());
 
