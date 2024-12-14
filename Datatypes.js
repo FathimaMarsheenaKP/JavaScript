@@ -19,7 +19,7 @@ console.log(a)
 let x;
 console.log(x);
 
-// OBJECT Data Type:
+// OBJECT Data Type: 
 // key : value ----> JSON
 let s1 = {
     name : 'Neha',
