@@ -37,7 +37,7 @@ let sum = function(a, b) {
 let res = sum(30, 40)
 console.log(res)
 
-// 3. Arrow function:
+// 3. Arrow function: 
 let product = (x, y) => console.log("Product is" ,x * y)
 product(40, 70)
 
