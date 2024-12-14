@@ -42,7 +42,7 @@ console.log("sum is:", sum)
 product = arr.reduce((acc, ele) => acc*ele, 1)
 console.log("product is:", product)
 
-// another method
+// another method 
 let pro = arr.reduce(function(acc, ele) {
     return acc * ele;
 })
