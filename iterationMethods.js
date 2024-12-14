@@ -47,3 +47,28 @@ let pro = arr.reduce(function(acc, ele) {
     return acc * ele;
 })
 console.log(pro)
+
+// map
+numbers = [1, 2, 3];
+let squared = numbers.map(num => num * num);
+console.log(squared);
+
+// filter
+numbers = [1, 2, 3, 4, 5];
+let evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers);
+
+// reduce
+numbers = [1, 2, 3, 4]
+s = numbers.reduce((sum, num) => sum + num, 0);
+console.log(s);
+
+numbers = [1, 2, 3, 4]
+p = numbers.reduce((prod, num) => prod * num, 1);
+console.log(p);
+
+// join
+numbers = [1, 2, 3, 4, 5]
+tech = numbers.join(" - ")
+console.log(tech);
+
