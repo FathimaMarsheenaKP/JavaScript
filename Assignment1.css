@@ -1,0 +1,23 @@
+
+#h1 {
+    text-align: center;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+}
+
+#btn:hover {
+    background-color: green;
+    color: white;
+}
