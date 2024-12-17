@@ -1,9 +1,13 @@
 body {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     border: 2px solid black;
     height: 95vh;
+    width: 60vh;
+}
+h1 {
+    margin-left: 100px;
 }
 
 .task-input {
@@ -17,9 +21,4 @@ body {
     width: 150px;
     border-radius: 10px;
     background-color: rgb(189, 189, 239);
-}
-
-.container {
-    display: inline;
-    border: 2px solid black;
 }
