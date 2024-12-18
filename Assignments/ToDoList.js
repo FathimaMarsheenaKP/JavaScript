@@ -20,8 +20,8 @@ function addTask() {
     completeButton.addEventListener('click', () => {
         moveToCompletedTasks(taskText);
 
-        completeButton.textContent = "Completed";
-        completeButton.style.backgroundColor = "green";
+        completeButton.textContent = "✔️";
+        completeButton.style.backgroundColor = "lightgreen";
         completeButton.disabled = true;
     });
 

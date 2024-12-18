@@ -1,24 +1,83 @@
 body {
     display: flex;
     align-items: start;
-    justify-content: center;
+    
+    /* justify-content: center; */
     border: 2px solid black;
     height: 95vh;
-    width: 60vh;
+    width: 85vh;
 }
-h1 {
-    margin-left: 100px;
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+/* h1 {
+    margin-left: 150px;
+} */
 
 .task-input {
     padding: 10px;
     margin-bottom: 20px;
     margin-right: 20px;
+    /* margin-left: 95px; */
 }
 
 .add {
     padding: 10px;
-    width: 150px;
+    width: 100px;
     border-radius: 10px;
-    background-color: rgb(189, 189, 239);
+    background-color: rgb(147, 234, 71);
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.taskList {
+    width: 350px;
+    /* border: 2px solid black; */
+    margin-left: 25px;
+}
+
+.taskList h3 {
+    margin-left: 50px;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cmplt {
+    height: 25px;
+    /* border-radius: 5px; */
+    margin-left: 5px;
+    border: none;
+}
+
+.display {
+    height: 25px;
+    /* border-radius: 5px; */
+    margin-bottom: 5px;
+    text-align: center;
+    width: 198px;
+}
+
+.completeList {
+    /* border: 2px solid black; */
+    margin-left: 20px;
+}
+
+.completeList h3 {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style-type: square;
 }
