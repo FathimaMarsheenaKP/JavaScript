@@ -12,3 +12,5 @@ function accept_name(name, show) {
     show(name);
 }
 accept_name("Keerthi", display);
+
+
